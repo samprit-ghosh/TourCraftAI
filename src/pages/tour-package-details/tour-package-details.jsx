@@ -66,7 +66,9 @@ export default function TourPackage() {
           icon: "🌿",
         },
       ];
-    } else if (selectedTour.title.includes("Andaman")) {
+    } 
+    
+    else if (selectedTour.title.includes("Andaman")) {
       return [
         {
           day: 1,
@@ -111,7 +113,208 @@ export default function TourPackage() {
           icon: "👋",
         },
       ];
-    } else {
+    } 
+    
+else if (selectedTour.title.includes("Kerala")) {
+  return [
+    {
+      day: 1,
+      title: "Arrival in Kochi",
+      desc: "Arrive at Kochi, transfer to hotel, explore Fort Kochi, Chinese fishing nets, and local cafes.",
+      costPerPerson: 3500,
+      icon: "✈️",
+    },
+    {
+      day: 2,
+      title: "Munnar",
+      desc: "Drive to Munnar, visit tea plantations, Mattupetty Dam, and enjoy the scenic hills.",
+      costPerPerson: 5000,
+      icon: "🏞️",
+    },
+    {
+      day: 3,
+      title: "Eravikulam National Park",
+      desc: "Trek in Eravikulam National Park to see Nilgiri Tahr and enjoy panoramic hill views.",
+      costPerPerson: 4500,
+      icon: "🦌",
+    },
+    {
+      day: 4,
+      title: "Thekkady / Periyar Wildlife Sanctuary",
+      desc: "Visit Periyar Wildlife Sanctuary, enjoy a boat ride on Periyar Lake, and spice plantation tour.",
+      costPerPerson: 5000,
+      icon: "🌿",
+    },
+    {
+      day: 5,
+      title: "Alleppey / Houseboat Stay",
+      desc: "Drive to Alleppey, board a traditional houseboat, cruise through backwaters and enjoy local cuisine.",
+      costPerPerson: 6000,
+      icon: "🛶",
+    },
+    {
+      day: 6,
+      title: "Kumarakom / Backwater Village",
+      desc: "Explore Kumarakom village, bird sanctuary, and relax before returning to Kochi.",
+      costPerPerson: 4500,
+      icon: "🏝️",
+    },
+    {
+      day: 7,
+      title: "Departure from Kochi",
+      desc: "Transfer to airport with memories of God's Own Country.",
+      costPerPerson: 2000,
+      icon: "👋",
+    },
+  ];
+}
+
+
+else if (selectedTour.title.includes("Coorg")) {
+  return [
+    {
+      day: 1,
+      title: "Arrival in Coorg",
+      desc: "Arrive in Coorg, transfer to hotel/resort, relax and enjoy the scenic views of coffee plantations.",
+      costPerPerson: 3500, // Accommodation + local transport + meals
+      icon: "✈️",
+    },
+    {
+      day: 2,
+      title: "Coffee Plantation & Abbey Falls",
+      desc: "Visit a local coffee plantation, learn about coffee processing, and explore Abbey Falls.",
+      costPerPerson: 4000, // Plantation visit + guide + entry + meals
+      icon: "☕",
+    },
+    {
+      day: 3,
+      title: "Dubare Elephant Camp & River Rafting",
+      desc: "Interact with elephants at Dubare Elephant Camp and enjoy optional river rafting at the Cauvery River.",
+      costPerPerson: 5000, // Camp fee + river rafting (optional) + transport + meals
+      icon: "🐘",
+    },
+    {
+      day: 4,
+      title: "Talakaveri & Bhagamandala",
+      desc: "Visit Talakaveri, the origin of the River Cauvery, and explore Bhagamandala temple and surroundings.",
+      costPerPerson: 4500, // Transport + entry + guide + meals
+      icon: "🏞️",
+    },
+    {
+      day: 5,
+      title: "Madikeri Sightseeing",
+      desc: "Explore Madikeri Fort, Raja’s Seat, and local markets for souvenirs.",
+      costPerPerson: 4000, // Transport + entry + meals
+      icon: "🏰",
+    },
+    {
+      day: 6,
+      title: "Departure",
+      desc: "Transfer to airport/railway station for departure with memories of Coorg's lush landscapes.",
+      costPerPerson: 3000, // Transport + meals
+      icon: "👋",
+    },
+  ];
+}
+
+
+else if (selectedTour.title.includes("Meghalaya")) {
+  return [
+    {
+      day: 1,
+      title: "Arrival in Shillong",
+      desc: "Arrive in Shillong, transfer to hotel, visit Ward's Lake, local markets, and enjoy evening at Police Bazaar.",
+      costPerPerson: 3500, // Approximate: accommodation + local transport + meals
+      icon: "✈️",
+    },
+    {
+      day: 2,
+      title: "Shillong Sightseeing",
+      desc: "Explore Elephant Falls, Shillong Peak, Lady Hydari Park, and Don Bosco Museum.",
+      costPerPerson: 4000, // Approximate: transport + entry fees + meals
+      icon: "🏞️",
+    },
+    {
+      day: 3,
+      title: "Cherrapunjee / Nohkalikai Falls",
+      desc: "Drive to Cherrapunjee, visit Nohkalikai Falls, Seven Sisters Falls, and Mawsmai Cave.",
+      costPerPerson: 4500, // Approximate: transport + guide + entry fees + meals
+      icon: "🌊",
+    },
+    {
+      day: 4,
+      title: "Nongriat / Double Decker Living Root Bridge",
+      desc: "Trek to the famous Double Decker Living Root Bridge at Nongriat and enjoy the surrounding waterfalls.",
+      costPerPerson: 5000, // Approximate: guide + trekking + meals
+      icon: "🌿",
+    },
+    {
+      day: 5,
+      title: "Mawlynnong Village & Riwai Root Bridge",
+      desc: "Visit Asia's cleanest village, explore local life, and walk to the living root bridge nearby.",
+      costPerPerson: 4000, // Approximate: transport + entry + meals
+      icon: "🏡",
+    },
+    {
+      day: 6,
+      title: "Dawki & Departure",
+      desc: "Drive to Dawki, enjoy the crystal-clear Umngot River, and transfer to Shillong airport for departure.",
+      costPerPerson: 3500, // Approximate: transport + meals
+      icon: "👋",
+    },
+  ];
+}
+
+else if (selectedTour.title.includes("Rajasthan")) {
+  return [
+    {
+      day: 1,
+      title: "Arrival in Jaipur",
+      desc: "Arrive in Jaipur, transfer to hotel, visit Hawa Mahal and local markets.",
+      costPerPerson: 3500, // Approximate: accommodation + local transport + meals
+      icon: "✈️",
+    },
+    {
+      day: 2,
+      title: "Jaipur Sightseeing",
+      desc: "Explore Amber Fort (elephant ride ₹2,500), City Palace, and Jantar Mantar.",
+      costPerPerson: 4000, // Approximate: entry fees + meals
+      icon: "🏰",
+    },
+    {
+      day: 3,
+      title: "Jaipur to Pushkar",
+      desc: "Drive to Pushkar, visit Brahma Temple, and explore local markets.",
+      costPerPerson: 3500, // Approximate: transport + meals
+      icon: "🛕",
+    },
+    {
+      day: 4,
+      title: "Pushkar to Udaipur",
+      desc: "Drive to Udaipur, visit City Palace and Lake Pichola.",
+      costPerPerson: 4500, // Approximate: transport + entry fees + meals
+      icon: "🏞️",
+    },
+    {
+      day: 5,
+      title: "Udaipur Sightseeing",
+      desc: "Explore Jagdish Temple, Saheliyon ki Bari, and local markets.",
+      costPerPerson: 4000, // Approximate: entry fees + meals
+      icon: "🌸",
+    },
+    {
+      day: 6,
+      title: "Departure from Udaipur",
+      desc: "Transfer to airport for departure with wonderful memories.",
+      costPerPerson: 3000, // Approximate: transport + meals
+      icon: "👋",
+    },
+  ];
+}
+
+
+
+    else {
       // Default Rajasthan tour
       return [
         {
@@ -181,7 +384,7 @@ export default function TourPackage() {
   const formatINR = (n) => "₹" + n.toLocaleString("en-IN");
 
   return (
-    <div className="w-full min-h-screen bg-gray-50 flex flex-col items-center py-6 mt-20">
+    <div className="w-full min-h-screen bg-gray-50 flex flex-col items-center py-6 mt-20 mb-20">
       <div className="max-w-6xl w-full grid md:grid-cols-3 gap-6">
         {/* Left Section - Tour Details */}
         <div className="md:col-span-2 space-y-6">

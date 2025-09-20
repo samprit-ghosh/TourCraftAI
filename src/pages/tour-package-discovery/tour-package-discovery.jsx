@@ -217,7 +217,7 @@ export default function Packagediscovery() {
     }, [query]);
 
     return (
-        <div className="min-h-screen bg-gray-50 p-4 sm:p-6 mt-20">
+        <div className="min-h-screen bg-gray-50 p-4 sm:p-6 mt-20 mb-20">
             <div className="max-w-7xl mx-auto">
                 <header className="flex flex-col gap-4 mb-6">
                     <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
@@ -229,6 +229,7 @@ export default function Packagediscovery() {
                             size="lg"
                             className="px-6 sm:px-8"
                             iconName="Zap"
+                            onClick={() => navigate("/ai-destination-recommender")}
                         >
                             Get AI Recommendations
                         </Button>

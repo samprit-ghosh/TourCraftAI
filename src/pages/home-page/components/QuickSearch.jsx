@@ -251,7 +251,7 @@ const QuickSearch = () => {
         </div>
       )}
 
-      <h2 className="text-3xl font-bold mb-6 text-center bg-gradient-to-r from-orange-600 to-orange-500 bg-clip-text text-transparent">
+      <h2 className="text-3xl font-bold mb-6 text-center bg-gradient-to-r from-orange-600 to-orange-500 bg-clip-text text-transparent mt-5">
         ✨ TourCraft AI
       </h2>
 

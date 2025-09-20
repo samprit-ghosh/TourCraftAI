@@ -791,7 +791,7 @@ const AIDestinationRecommender = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white pt-20">
+    <div className="min-h-screen bg-gradient-to-b from-orange-50 to-white pt-20 mb-20">
       {/* Header */}
       <div className="border-b border-orange-200">
         <div className="max-w-7xl mx-auto px-4 lg:px-6 py-8">
