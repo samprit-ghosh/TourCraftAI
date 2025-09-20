@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* optional: your custom global styles */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: var(--color-background, #fff);
+  color: var(--color-text-primary, #111);
+}
